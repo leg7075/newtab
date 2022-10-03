@@ -1,0 +1,68 @@
+/* #212529 #303C40 #D7EBF5 #31C2AA #31BEF1 */
+body{
+    background-color: #303C40;
+}
+
+p{
+    color: #D7EBF5;
+}
+
+span{
+    color: #31C2AA; 
+}
+
+.highlight{
+    color: #31BEF1; 
+}
+
+.cardlink{
+    color: #D7EBF5;
+}
+
+.search-bar{
+    width: 100%;
+    max-width: 70%;
+    background: rgba(255, 255, 255, 0.2);
+    border-radius: 60px;
+    padding: 10px 20px;
+}
+
+.search-bar input{
+    background: transparent;
+    flex: 1;
+    border: 0;
+    outline: none;
+    padding: 24px 20px;
+    font-size: 20px;
+    color: #D7EBF5;
+}
+
+.search-bar button{
+    border: 0;
+    border-radius: 50%;
+    width: 54px;
+    height: 54px;
+    background-color: #303C40;
+    cursor: pointer;
+}
+
+.infocard{
+    background-color: #303C40;
+    min-height: 180px;
+}
+
+.infocard h1{
+    color: #31C2AA;
+}
+
+.infocard h3{
+    color: #D7EBF5;
+}
+
+#credit{
+    position: fixed; 
+    bottom:0%;
+    width:100%; 
+    right: 0%;
+    color: #D7EBF5;
+}
