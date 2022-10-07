@@ -1,0 +1,108 @@
+/* #212529 #303C40 #D7EBF5 #31C2AA #31BEF1 */
+body{
+    background-color: #e0e0e0;
+    font-family: 'Lato', sans-serif;
+}
+
+h4, p, hr{
+    color: #1E3231;
+}
+
+span{
+    color: #F7567C; 
+}
+
+.highlight{
+    color: #0197F6; 
+}
+
+.cardlink{
+    color: #D7EBF5;
+}
+
+.search-bar{
+    width: 100%;
+    max-width: 70%;
+    padding: 10px 20px;
+}
+
+.search-bar input{
+    background: transparent;
+    flex: 1;
+    border: 0;
+    outline: none;
+    padding: 24px 20px;
+    font-size: 20px;
+    color: #D7EBF5;
+}
+
+.search-bar button{
+    border: 0;
+    width: 54px;
+    height: 54px;
+    cursor: pointer;
+    border-radius: 65px;
+    border-radius: 65px;
+    background: #e0e0e0;
+    box-shadow:  6px 6px 12px #c3c3c3,
+                 -6px -6px 12px #fdfdfd;
+}
+
+.infocard{
+    background-color: #303C40;
+    min-height: 180px;
+}
+
+.infocard h1{
+    color: #31C2AA;
+}
+
+.infocard h3{
+    color: #D7EBF5;
+}
+
+.card-img {
+    width:164px;
+    height:123px;
+    text-align: center;
+    justify-content: center;
+    border-radius: 16px;
+    background: #e0e0e0;
+    box-shadow:  6px 6px 12px #c3c3c3,
+                 -6px -6px 12px #fdfdfd;
+}
+
+/* unvisited link */
+a:link {
+    color: #1E3231;
+  }
+  
+  /* visited link */
+  a:visited {
+    color: #1E3231;
+  }
+  
+  /* mouse over link */
+  a:hover {
+    color: #1E3231;
+  }
+  
+  /* selected link */
+  a:active {
+    color: #1E3231;
+  }
+
+.round{
+    border-radius: 65px;
+    background: #e0e0e0;
+    box-shadow:  6px 6px 12px #c3c3c3,
+                 -6px -6px 12px #fdfdfd;
+}
+
+#credit{
+    position: fixed; 
+    bottom:0%;
+    width:100%; 
+    right: 0%;
+    color: #D7EBF5;
+}
