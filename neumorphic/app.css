@@ -49,16 +49,19 @@ span{
 }
 
 .infocard{
-    background-color: #303C40;
+    border-radius: 16px;
+    background: #e0e0e0;
+    box-shadow:  6px 6px 12px #c3c3c3,
+                 -6px -6px 12px #fdfdfd;
     min-height: 180px;
 }
 
 .infocard h1{
-    color: #31C2AA;
+    color: #F7567C;
 }
 
 .infocard h3{
-    color: #D7EBF5;
+    color: #4C86A8;
 }
 
 .card-img {
