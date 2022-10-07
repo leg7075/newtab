@@ -1,4 +1,4 @@
-/* #212529 #303C40 #D7EBF5 #31C2AA #31BEF1 */
+/* #1e3231 #e0e0e0 #0197F6 #F7567C #4C86A8 */
 body{
     background-color: #e0e0e0;
     font-family: 'Lato', sans-serif;
@@ -107,5 +107,4 @@ a:link {
     bottom:0%;
     width:100%; 
     right: 0%;
-    color: #D7EBF5;
 }
