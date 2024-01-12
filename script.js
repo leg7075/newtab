@@ -36,7 +36,7 @@ window.onload = function() {
     weatherupdate();
     function weatherupdate(){
         const apiKey = "97a98c4d65fe31b2daa13041548765a3";
-        const inputVal = "Richmond, Ca";
+        const inputVal = "Richmond, CA";
         const url = `https://api.openweathermap.org/data/2.5/weather?q=${inputVal}&appid=${apiKey}&units=metric`;
 
         fetch(url)
@@ -45,6 +45,7 @@ window.onload = function() {
             const { main, cityname, sys, weather } = data;
             document.getElementById('weather').innerHTML = weather[0]["description"];
             document.getElementById('temperature').innerHTML = Math.round(main.temp) + "&deg;C";
+            document.getElementById('feelslike').innerHTML = Math.round(main.feels_like) + "&deg;C";
         })
         .catch(() => {
         console.log("Please search for a valid city");
